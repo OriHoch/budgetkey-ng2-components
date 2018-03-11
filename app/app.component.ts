@@ -4,7 +4,7 @@ declare const process: any;
 @Component({
   selector: 'my-app',
   template: `
-    <budgetkey-container [showSearchBar]="true">
+    <budgetkey-container [showSearchBar]="true" [showFooter]="false">
       <h1>{{ greeting }}</h1>
       <budgetkey-search-link 
         [linktitle]="'קישור לחיפוש ביצים'"
